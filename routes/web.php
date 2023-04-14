@@ -14,8 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('silicon-front.index');
+})->name('index');
+
+Route::get('/cursos', function () {
+    return view('silicon-front.cursos');
+})->name('cursos');
 
 Route::middleware([
     'auth:sanctum',
