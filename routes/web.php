@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 Route::get('/cursos', function () {
     $apiMoodle = new Apimoodle();
-    $token = $apiMoodle->token();
+    $token = $apiMoodle->crear_categoria_cursos();
     return $token;
     return view('silicon-front.cursos');
 })->name('cursos');
