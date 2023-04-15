@@ -24,12 +24,12 @@
     <link rel="stylesheet" type="text/css" href="./silicon-front/silicon/all.min.css">
     <link rel="stylesheet" type="text/css" href="./silicon-front/silicon/bootstrap-icons.css">
 
-    @if(Route::currentRouteName() == 'index' )
+    @if (Route::currentRouteName() == 'index')
         <link rel="stylesheet" type="text/css" href="./silicon-front/silicon/tiny-slider.css">
         <link rel="stylesheet" type="text/css" href="./silicon-front/silicon/glightbox.css">
     @endif
 
-    @if(Route::currentRouteName() == 'cursos' )
+    @if (Route::currentRouteName() == 'cursos')
         <link rel="stylesheet" type="text/css" href="./silicon-front/silicon/choices.min.css">
     @endif
 
@@ -320,8 +320,9 @@
                     <ul class="navbar-nav navbar-nav-scroll me-auto">
                         <!-- Nav item 1 Demos -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle {{ Route::currentRouteName() == 'index' ? 'active' : '' }}" href="#" id="demoMenu"
-                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Demos</a>
+                            <a class="nav-link dropdown-toggle {{ Route::currentRouteName() == 'index' ? 'active' : '' }}"
+                                href="#" id="demoMenu" data-bs-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Demos</a>
                             <ul class="dropdown-menu" aria-labelledby="demoMenu">
                                 <li> <a class="dropdown-item {{ Route::currentRouteName() == 'index' ? 'active' : '' }}"
                                         href="https://eduport.webestica.com/index.html">Home Default</a></li>
@@ -360,12 +361,14 @@
 
                         <!-- Nav item 2 Pages -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle {{ in_array(request()->route()->getName(), ['profile', 'cursos']) ? 'active' : '' }}" href="#" id="pagesMenu"
-                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                            <a class="nav-link dropdown-toggle {{ in_array(request()->route()->getName(),['profile', 'cursos'])? 'active': '' }}"
+                                href="#" id="pagesMenu" data-bs-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Pages</a>
                             <ul class="dropdown-menu" aria-labelledby="pagesMenu">
                                 <!-- Dropdown submenu -->
                                 <li class="dropdown-submenu dropend">
-                                    <a class="dropdown-item dropdown-toggle {{ in_array(request()->route()->getName(), ['profile', 'cursos']) ? 'active' : '' }}" href="#">Course</a>
+                                    <a class="dropdown-item dropdown-toggle {{ in_array(request()->route()->getName(),['profile', 'cursos'])? 'active': '' }}"
+                                        href="#">Course</a>
                                     <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
                                         <li> <a class="dropdown-item"
                                                 href="https://eduport.webestica.com/course-categories.html">Course
@@ -377,7 +380,7 @@
                                         <li> <a class="dropdown-item"
                                                 href="https://eduport.webestica.com/course-grid.html">Course Grid
                                                 Classic</a></li>
-                                        <li> <a class="dropdown-item {{ in_array(request()->route()->getName(), ['profile', 'cursos']) ? 'active' : '' }}"
+                                        <li> <a class="dropdown-item {{ in_array(request()->route()->getName(),['profile', 'cursos'])? 'active': '' }}"
                                                 href="https://eduport.webestica.com/course-grid-2.html">Course Grid
                                                 Minimal</a></li>
                                         <li>
@@ -1166,8 +1169,9 @@
                                                     data-choice-selectable="">Francas</div>
                                                 <div id="choices--emom-item-choice-4"
                                                     class="choices__item choices__item--choice choices__item--selectable"
-                                                    role="option" data-choice="" data-id="4" data-value="Hindi"
-                                                    data-select-text="Press to select" data-choice-selectable="">Hindi
+                                                    role="option" data-choice="" data-id="4"
+                                                    data-value="Hindi" data-select-text="Press to select"
+                                                    data-choice-selectable="">Hindi
                                                 </div>
                                                 <div id="choices--emom-item-choice-6"
                                                     class="choices__item choices__item--choice choices__item--selectable"
@@ -1206,8 +1210,8 @@
                                 <div class="card shadow h-100">
                                     <!-- Image -->
                                     <a href="#">
-                                    <img src="./silicon-front/silicon/08.jpg" class="card-img-top"
-                                        alt="course image"></a>
+                                        <img src="./silicon-front/silicon/08.jpg" class="card-img-top"
+                                            alt="course image"></a>
                                     <!-- Card body -->
                                     <div class="card-body pb-0">
                                         <!-- Badge and favorite -->
@@ -1247,10 +1251,23 @@
                                         </div>
                                         <hr>
                                         <div class="d-flex justify-content-between">
-                                            <span class="h6 fw-light mb-0"><i
-                                                    class="far fa-clock text-danger me-2"></i>12h 56m</span>
-                                            <span class="h6 fw-light mb-0"><i
-                                                    class="fas fa-table text-orange me-2"></i>15 lectures</span>
+                                            <span class="h6 fw-light mb-0">
+                                                <button type="button"
+                                                    class="course-card-btn small s-border-none background transparent-color s-cursor-pointer s-cross-center s-nowrap base"
+                                                    style="background-color: transparent; border: none; padding: 0;">
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="1.25em"
+                                                        height="1.25em" viewBox="0 0 20 21"
+                                                        class="svg-icon normal s-mr-05 fill blue-500 undefined text-danger"
+                                                        fill="currentColor">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M1.66663 2.89306C1.66663 2.43283 2.03972 2.05973 2.49996 2.05973H4.16663C4.56386 2.05973 4.90587 2.34011 4.98378 2.72963L5.18313 3.7264H17.5C17.7888 3.7264 18.057 3.87594 18.2088 4.12162C18.3607 4.3673 18.3745 4.67408 18.2453 4.93241L14.912 11.5991C14.7708 11.8814 14.4823 12.0597 14.1666 12.0597H6.17847L4.5118 13.7264L14.1666 13.7264C15.5473 13.7264 16.6666 14.8457 16.6666 16.2264C16.6666 17.6071 15.5473 18.7264 14.1666 18.7264C12.7859 18.7264 11.6666 17.6071 11.6666 16.2264C11.6666 15.9342 11.7168 15.6537 11.8089 15.3931H8.19104C8.28316 15.6537 8.33329 15.9342 8.33329 16.2264C8.33329 17.6071 7.214 18.7264 5.83329 18.7264C4.45258 18.7264 3.33329 17.6071 3.33329 16.2264C3.33329 15.8296 3.42572 15.4545 3.59022 15.1212C2.77429 14.5792 2.53374 13.3474 3.33329 12.5479L4.92868 10.9525L3.48346 3.7264H2.49996C2.03972 3.7264 1.66663 3.3533 1.66663 2.89306ZM6.51646 10.3931H13.6516L16.1516 5.39306H5.51646L6.51646 10.3931ZM5.83329 15.3931C5.37306 15.3931 4.99996 15.7662 4.99996 16.2264C4.99996 16.6866 5.37306 17.0597 5.83329 17.0597C6.29353 17.0597 6.66663 16.6866 6.66663 16.2264C6.66663 15.7662 6.29353 15.3931 5.83329 15.3931ZM14.1666 15.3931C13.7064 15.3931 13.3333 15.7662 13.3333 16.2264C13.3333 16.6866 13.7064 17.0597 14.1666 17.0597C14.6269 17.0597 15 16.6866 15 16.2264C15 15.7662 14.6269 15.3931 14.1666 15.3931Z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="color s-font-semibold blue-500 s-whitespace-nowrap undefined">S/ 84 SOLES</span>
+                                                </button>
+                                            </span>
+                                            <span class="h6 fw-light mb-0"></span>
                                         </div>
                                     </div>
                                 </div>
@@ -1262,8 +1279,8 @@
                                 <div class="card shadow h-100">
                                     <!-- Image -->
                                     <a href="#">
-                                    <img src="./silicon-front/silicon/ps.jpg" class="card-img-top"
-                                        alt="course image"></a>
+                                        <img src="./silicon-front/silicon/ps.jpg" class="card-img-top"
+                                            alt="course image"></a>
                                     <div class="card-body pb-0">
                                         <!-- Badge and favorite -->
                                         <div class="d-flex justify-content-between mb-2">
@@ -1274,7 +1291,8 @@
                                         </div>
                                         <!-- Title -->
                                         <h5 class="card-title"><a
-                                                href="https://eduport.webestica.com/course-grid-2.html#">Graphic Design
+                                                href="https://eduport.webestica.com/course-grid-2.html#">Graphic
+                                                Design
                                                 Masterclass</a></h5>
                                         <!-- Rating star -->
                                         <ul class="list-inline mb-0">
@@ -1310,8 +1328,8 @@
                                 <div class="card shadow h-100">
                                     <!-- Image -->
                                     <a href="#">
-                                    <img src="./silicon-front/silicon/figma.jpg" class="card-img-top"
-                                        alt="course image"></a>
+                                        <img src="./silicon-front/silicon/figma.jpg" class="card-img-top"
+                                            alt="course image"></a>
                                     <div class="card-body pb-0">
                                         <!-- Badge and favorite -->
                                         <div class="d-flex justify-content-between mb-2">
@@ -1358,8 +1376,8 @@
                                 <div class="card shadow h-100">
                                     <!-- Image -->
                                     <a href="#">
-                                    <img src="./silicon-front/silicon/07.jpg" class="card-img-top"
-                                        alt="course image"></a>
+                                        <img src="./silicon-front/silicon/07.jpg" class="card-img-top"
+                                            alt="course image"></a>
                                     <div class="card-body pb-0">
                                         <!-- Badge and favorite -->
                                         <div class="d-flex justify-content-between mb-2">
@@ -1406,8 +1424,8 @@
                                 <div class="card shadow h-100">
                                     <!-- Image -->
                                     <a href="#">
-                                    <img src="./silicon-front/silicon/11.jpg" class="card-img-top"
-                                        alt="course image"></a>
+                                        <img src="./silicon-front/silicon/11.jpg" class="card-img-top"
+                                            alt="course image"></a>
                                     <div class="card-body pb-0">
                                         <!-- Badge and favorite -->
                                         <div class="d-flex justify-content-between mb-2">
@@ -1454,8 +1472,8 @@
                                 <div class="card shadow h-100">
                                     <!-- Image -->
                                     <a href="#">
-                                    <img src="./silicon-front/silicon/12.jpg" class="card-img-top"
-                                        alt="course image"></a>
+                                        <img src="./silicon-front/silicon/12.jpg" class="card-img-top"
+                                            alt="course image"></a>
                                     <div class="card-body pb-0">
                                         <!-- Badge and favorite -->
                                         <div class="d-flex justify-content-between mb-2">
@@ -1502,8 +1520,8 @@
                                 <div class="card shadow h-100">
                                     <!-- Image -->
                                     <a href="#">
-                                    <img src="./silicon-front/silicon/05.jpg" class="card-img-top"
-                                        alt="course image"></a>
+                                        <img src="./silicon-front/silicon/05.jpg" class="card-img-top"
+                                            alt="course image"></a>
                                     <div class="card-body pb-0">
                                         <!-- Badge and favorite -->
                                         <div class="d-flex justify-content-between mb-2">
@@ -1550,8 +1568,8 @@
                                 <div class="card shadow h-100">
                                     <!-- Image -->
                                     <a href="#">
-                                    <img src="./silicon-front/silicon/06.jpg" class="card-img-top"
-                                        alt="course image"></a>
+                                        <img src="./silicon-front/silicon/06.jpg" class="card-img-top"
+                                            alt="course image"></a>
                                     <div class="card-body pb-0">
                                         <!-- Badge and favorite -->
                                         <div class="d-flex justify-content-between mb-2">
@@ -1598,8 +1616,8 @@
                                 <div class="card shadow h-100">
                                     <!-- Image -->
                                     <a href="#">
-                                    <img src="./silicon-front/silicon/10.jpg" class="card-img-top"
-                                        alt="course image"></a>
+                                        <img src="./silicon-front/silicon/10.jpg" class="card-img-top"
+                                            alt="course image"></a>
                                     <div class="card-body pb-0">
                                         <!-- Badge and favorite -->
                                         <div class="d-flex justify-content-between mb-2">
@@ -1646,8 +1664,8 @@
                                 <div class="card shadow h-100">
                                     <!-- Image -->
                                     <a href="#">
-                                    <img src="./silicon-front/silicon/13.jpg" class="card-img-top"
-                                        alt="course image"></a>
+                                        <img src="./silicon-front/silicon/13.jpg" class="card-img-top"
+                                            alt="course image"></a>
                                     <div class="card-body pb-0">
                                         <!-- Badge and favorite -->
                                         <div class="d-flex justify-content-between mb-2">
@@ -1694,8 +1712,8 @@
                                 <div class="card shadow h-100">
                                     <!-- Image -->
                                     <a href="#">
-                                    <img src="./silicon-front/silicon/01(1).jpg" class="card-img-top"
-                                        alt="course image"></a>
+                                        <img src="./silicon-front/silicon/01(1).jpg" class="card-img-top"
+                                            alt="course image"></a>
                                     <div class="card-body pb-0">
                                         <!-- Badge and favorite -->
                                         <div class="d-flex justify-content-between mb-2">
@@ -1742,8 +1760,8 @@
                                 <div class="card shadow h-100">
                                     <!-- Image -->
                                     <a href="#">
-                                    <img src="./silicon-front/silicon/in.jpg" class="card-img-top"
-                                        alt="course image"></a>
+                                        <img src="./silicon-front/silicon/in.jpg" class="card-img-top"
+                                            alt="course image"></a>
                                     <div class="card-body pb-0">
                                         <!-- Badge and favorite -->
                                         <div class="d-flex justify-content-between mb-2">
@@ -2045,13 +2063,13 @@ Footer END -->
     <script src="./silicon-front/silicon/bootstrap.bundle.min.js"></script>
 
     <!-- Vendors -->
-    @if(Route::currentRouteName() == 'index' )
+    @if (Route::currentRouteName() == 'index')
         <script src="./silicon-front/silicon/tiny-slider.js"></script>
         <script src="./silicon-front/silicon/glightbox.js"></script>
         <script src="./silicon-front/silicon/purecounter_vanilla.js"></script>
     @endif
 
-    @if(Route::currentRouteName() == 'cursos' )
+    @if (Route::currentRouteName() == 'cursos')
         <script src="./silicon-front/silicon/choices.min.js"></script>
     @endif
 

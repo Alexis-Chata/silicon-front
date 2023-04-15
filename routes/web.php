@@ -1,5 +1,6 @@
 <?php
 
+use App\Apimoodle\Apimoodle;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,6 +19,9 @@ Route::get('/', function () {
 })->name('index');
 
 Route::get('/cursos', function () {
+    $apiMoodle = new Apimoodle();
+    $token = $apiMoodle->token();
+    return $token;
     return view('silicon-front.cursos');
 })->name('cursos');
 
