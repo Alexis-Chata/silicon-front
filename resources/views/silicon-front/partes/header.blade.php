@@ -778,6 +778,84 @@
             </div>
             <!-- Main navbar END -->
 
+            <!-- Cart dropdown START -->
+            <div class="me-2 me-md-3 dropdown">
+				<!-- Cart button -->
+				<a class="btn btn-light btn-round mb-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+					<i class="bi bi-cart3 fa-fw"></i>
+				</a>
+				<!-- badge -->
+				<span class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-dark mt-xl-2 ms-n1">2
+					<span class="visually-hidden">unread messages</span>
+				</span>
+
+				<!-- Cart dropdown menu START -->
+				<div class="dropdown-menu dropdown-animation dropdown-menu-end dropdown-menu-size-md p-0 shadow-lg border-0">
+					<div class="card bg-transparent">
+						<div class="card-header bg-transparent border-bottom py-4">
+							<h5 class="m-0">Cart items</h5>
+						</div>
+						<div class="card-body p-0">
+
+							<!-- Cart item START -->
+							<div class="row p-3 g-2">
+								<!-- Image -->
+								<div class="col-3">
+									<img class="rounded-2" src="assets/images/book/02.jpg" alt="avatar">
+								</div>
+
+								<div class="col-9">
+									<!-- Title -->
+									<div class="d-flex justify-content-between">
+										<h6 class="m-0">Angular 4 Tutorial in audio (Compact Disk)</h6>
+										<a href="#" class="small text-primary-hover"><i class="bi bi-x-lg"></i></a>
+									</div>
+									<!-- Select item -->
+									<form class="choices-sm pt-2 col-4">
+										<div class="choices" data-type="select-one" tabindex="0" role="listbox" aria-haspopup="true" aria-expanded="false"><div class="choices__inner"><select class="form-select js-choice border-0 bg-transparent choices__input" data-search-enabled="false" hidden="" tabindex="-1" data-choice="active"><option value="2" data-custom-properties="[object Object]">2</option></select><div class="choices__list choices__list--single"><div class="choices__item choices__item--selectable" data-item="" data-id="1" data-value="2" data-custom-properties="[object Object]" aria-selected="true">2</div></div></div><div class="choices__list choices__list--dropdown" aria-expanded="false"><div class="choices__list" role="listbox"><div id="choices--7hld-item-choice-1" class="choices__item choices__item--choice choices__item--selectable is-highlighted" role="option" data-choice="" data-id="1" data-value="1" data-select-text="Press to select" data-choice-selectable="" aria-selected="true">1</div><div id="choices--7hld-item-choice-2" class="choices__item choices__item--choice is-selected choices__item--selectable" role="option" data-choice="" data-id="2" data-value="2" data-select-text="Press to select" data-choice-selectable="">2</div><div id="choices--7hld-item-choice-3" class="choices__item choices__item--choice choices__item--selectable" role="option" data-choice="" data-id="3" data-value="3" data-select-text="Press to select" data-choice-selectable="">3</div><div id="choices--7hld-item-choice-4" class="choices__item choices__item--choice choices__item--selectable" role="option" data-choice="" data-id="4" data-value="4" data-select-text="Press to select" data-choice-selectable="">4</div><div id="choices--7hld-item-choice-5" class="choices__item choices__item--choice choices__item--selectable" role="option" data-choice="" data-id="5" data-value="5" data-select-text="Press to select" data-choice-selectable="">5</div></div></div></div>
+									</form>
+								</div>
+							</div>
+							<!-- Cart item END -->
+
+							<!-- Divider -->
+							<hr class="m-0">
+
+							<!-- Cart item START -->
+							<div class="row p-3 g-2">
+								<!-- Image -->
+								<div class="col-3">
+									<img class="rounded-2" src="assets/images/book/04.jpg" alt="avatar">
+								</div>
+
+								<div class="col-9">
+									<!-- Title -->
+									<div class="d-flex justify-content-between">
+										<h6 class="m-0">The Principles of Beautiful Graphics Design (Paperback)</h6>
+										<a href="#" class="small text-primary-hover"><i class="bi bi-x-lg"></i></a>
+									</div>
+									<!-- Select item -->
+									<form class="choices-sm pt-2 col-4">
+										<div class="choices" data-type="select-one" tabindex="0" role="listbox" aria-haspopup="true" aria-expanded="false"><div class="choices__inner"><select class="form-select js-choice border-0 bg-transparent choices__input" data-search-enabled="false" hidden="" tabindex="-1" data-choice="active"><option value="1" data-custom-properties="[object Object]">1</option></select><div class="choices__list choices__list--single"><div class="choices__item choices__item--selectable" data-item="" data-id="1" data-value="1" data-custom-properties="[object Object]" aria-selected="true">1</div></div></div><div class="choices__list choices__list--dropdown" aria-expanded="false"><div class="choices__list" role="listbox"><div id="choices--q0zc-item-choice-1" class="choices__item choices__item--choice is-selected choices__item--selectable is-highlighted" role="option" data-choice="" data-id="1" data-value="1" data-select-text="Press to select" data-choice-selectable="" aria-selected="true">1</div><div id="choices--q0zc-item-choice-2" class="choices__item choices__item--choice choices__item--selectable" role="option" data-choice="" data-id="2" data-value="2" data-select-text="Press to select" data-choice-selectable="">2</div><div id="choices--q0zc-item-choice-3" class="choices__item choices__item--choice choices__item--selectable" role="option" data-choice="" data-id="3" data-value="3" data-select-text="Press to select" data-choice-selectable="">3</div><div id="choices--q0zc-item-choice-4" class="choices__item choices__item--choice choices__item--selectable" role="option" data-choice="" data-id="4" data-value="4" data-select-text="Press to select" data-choice-selectable="">4</div><div id="choices--q0zc-item-choice-5" class="choices__item choices__item--choice choices__item--selectable" role="option" data-choice="" data-id="5" data-value="5" data-select-text="Press to select" data-choice-selectable="">5</div></div></div></div>
+									</form>
+								</div>
+							</div>
+							<!-- Cart item END -->
+
+						</div>
+						<!-- Button -->
+						<div class="card-footer bg-transparent border-top py-3 text-center d-flex justify-content-between position-relative">
+							<a href="#" class="btn btn-sm btn-light mb-0">View Cart</a>
+							<a href="#" class="btn btn-sm btn-success mb-0">Checkout</a>
+						</div>
+					</div>
+				</div>
+				<!-- Cart dropdown menu END -->
+			</div>
+            <!-- Cart dropdown END -->
+
+
+
             <!-- Profile START -->
             <div class="dropdown ms-1 ms-lg-0">
                 <a class="avatar avatar-sm p-0" href="#" id="profileDropdown" role="button"
