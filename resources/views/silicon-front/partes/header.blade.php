@@ -4,10 +4,8 @@
         <div class="container-fluid px-3 px-xl-5">
             <!-- Logo START -->
             <a class="navbar-brand" href="{{ env('APP_URL', 'http://localhost') }}">
-                <img class="light-mode-item navbar-brand-item" src="./silicon-front/silicon/logo.svg"
-                    alt="logo">
-                <img class="dark-mode-item navbar-brand-item" src="./silicon-front/silicon/logo-light.svg"
-                    alt="logo">
+                <img class="light-mode-item navbar-brand-item" src="./silicon-front/silicon/logo.svg" alt="logo">
+                <img class="dark-mode-item navbar-brand-item" src="./silicon-front/silicon/logo-light.svg" alt="logo">
             </a>
             <!-- Logo END -->
 
@@ -29,9 +27,9 @@
                 <ul class="navbar-nav navbar-nav-scroll me-auto">
                     <!-- Nav item 1 Demos -->
                     <li class="nav-item dropdown dropdown-menu-shadow-stacked">
-                        <a class="nav-link bg-primary bg-opacity-10 rounded-3 text-primary px-3 py-3 py-xl-0"
-                            href="#" id="categoryMenu" data-bs-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false"><i class="bi bi-ui-radios-grid me-2"></i><span>Category</span></a>
+                        <a class="nav-link bg-primary bg-opacity-10 rounded-3 text-primary px-3 py-3 py-xl-0" href="#"
+                            id="categoryMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                                class="bi bi-ui-radios-grid me-2"></i><span>Category</span></a>
                         <ul class="dropdown-menu" aria-labelledby="categoryMenu">
 
                             <!-- Dropdown submenu -->
@@ -63,8 +61,7 @@
                             <!-- Dropdown submenu -->
                             <li class="dropdown-submenu dropend">
                                 <a class="dropdown-item dropdown-toggle" href="#">Marketing</a>
-                                <div class="dropdown-menu dropdown-menu-start dropdown-width-lg"
-                                    data-bs-popper="none">
+                                <div class="dropdown-menu dropdown-menu-start dropdown-width-lg" data-bs-popper="none">
                                     <div class="row p-4">
                                         <!-- Dropdown column item -->
                                         <div class="col-xl-6 col-xxl-4 mb-4 mb-xl-0">
@@ -155,8 +152,8 @@
                                             <hr> <!-- Divider -->
                                             <!-- Dropdown item -->
                                             <div class="d-flex mb-4 position-relative">
-                                                <h2 class="mb-0"><i
-                                                        class="fab fa-fw fa-google text-google-icon"></i></h2>
+                                                <h2 class="mb-0"><i class="fab fa-fw fa-google text-google-icon"></i>
+                                                </h2>
                                                 <div class="ms-2">
                                                     <a class="stretched-link h6 mb-0" href="#">Google SEO
                                                         certificate</a>
@@ -165,8 +162,8 @@
                                             </div>
                                             <!-- Dropdown item -->
                                             <div class="d-flex mb-4 position-relative">
-                                                <h2 class="mb-0"><i
-                                                        class="fab fa-fw fa-linkedin-in text-linkedin"></i></h2>
+                                                <h2 class="mb-0"><i class="fab fa-fw fa-linkedin-in text-linkedin"></i>
+                                                </h2>
                                                 <div class="ms-2">
                                                     <a class="stretched-link h6 mb-0" href="#">Business
                                                         Development Executive(BDE)</a>
@@ -175,8 +172,8 @@
                                             </div>
                                             <!-- Dropdown item -->
                                             <div class="d-flex mb-4 position-relative">
-                                                <h2 class="mb-0"><i
-                                                        class="fab fa-fw fa-facebook text-facebook"></i></h2>
+                                                <h2 class="mb-0"><i class="fab fa-fw fa-facebook text-facebook"></i>
+                                                </h2>
                                                 <div class="ms-2">
                                                     <a class="stretched-link h6 mb-0" href="#">Facebook
                                                         social media marketing</a>
@@ -290,12 +287,12 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li> <a class="dropdown-item"
-                                    href="https://eduport.webestica.com/request-demo.html">Request a demo</a></li>
-                            <li> <a class="dropdown-item"
-                                    href="https://eduport.webestica.com/book-class.html">Book a Class</a></li>
-                            <li> <a class="dropdown-item"
-                                    href="https://eduport.webestica.com/request-access.html">Free Access</a></li>
+                            <li> <a class="dropdown-item" href="https://eduport.webestica.com/request-demo.html">Request
+                                    a demo</a></li>
+                            <li> <a class="dropdown-item" href="https://eduport.webestica.com/book-class.html">Book a
+                                    Class</a></li>
+                            <li> <a class="dropdown-item" href="https://eduport.webestica.com/request-access.html">Free
+                                    Access</a></li>
                             <li> <a class="dropdown-item"
                                     href="https://eduport.webestica.com/university-admission-form.html">Admission
                                     Form</a></li>
@@ -357,8 +354,8 @@
                             <li class="dropdown-submenu dropend">
                                 <a class="dropdown-item dropdown-toggle" href="#">About</a>
                                 <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
-                                    <li> <a class="dropdown-item"
-                                            href="https://eduport.webestica.com/about.html">About Us</a></li>
+                                    <li> <a class="dropdown-item" href="https://eduport.webestica.com/about.html">About
+                                            Us</a></li>
                                     <li> <a class="dropdown-item"
                                             href="https://eduport.webestica.com/contact-us.html">Contact Us</a>
                                     </li>
@@ -384,9 +381,8 @@
                             <li> <a class="dropdown-item"
                                     href="https://eduport.webestica.com/become-instructor.html">Become an
                                     Instructor</a></li>
-                            <li> <a class="dropdown-item"
-                                    href="https://eduport.webestica.com/abroad-single.html">Abroad Single <span
-                                        class="badge bg-success ms-2 smaller">New</span></a></li>
+                            <li> <a class="dropdown-item" href="https://eduport.webestica.com/abroad-single.html">Abroad
+                                    Single <span class="badge bg-success ms-2 smaller">New</span></a></li>
 
                             <!-- Dropdown submenu -->
                             <li class="dropdown-submenu dropend">
@@ -394,8 +390,8 @@
                                     <span class="badge bg-success ms-2 smaller">New</span>
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
-                                    <li> <a class="dropdown-item"
-                                            href="https://eduport.webestica.com/shop.html">Shop grid</a></li>
+                                    <li> <a class="dropdown-item" href="https://eduport.webestica.com/shop.html">Shop
+                                            grid</a></li>
                                     <li> <a class="dropdown-item"
                                             href="https://eduport.webestica.com/shop-product-detail.html">Product
                                             detail</a></li>
@@ -421,10 +417,10 @@
                             <li class="dropdown-submenu dropend">
                                 <a class="dropdown-item dropdown-toggle" href="#">Authentication</a>
                                 <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
-                                    <li> <a class="dropdown-item"
-                                            href="https://eduport.webestica.com/sign-in.html">Sign In</a></li>
-                                    <li> <a class="dropdown-item"
-                                            href="https://eduport.webestica.com/sign-up.html">Sign Up</a></li>
+                                    <li> <a class="dropdown-item" href="https://eduport.webestica.com/sign-in.html">Sign
+                                            In</a></li>
+                                    <li> <a class="dropdown-item" href="https://eduport.webestica.com/sign-up.html">Sign
+                                            Up</a></li>
                                     <li> <a class="dropdown-item"
                                             href="https://eduport.webestica.com/forgot-password.html">Forgot
                                             Password</a></li>
@@ -433,16 +429,16 @@
 
                             <li> <a class="dropdown-item" href="https://eduport.webestica.com/faq.html">FAQs</a>
                             </li>
-                            <li> <a class="dropdown-item"
-                                    href="https://eduport.webestica.com/error-404.html">Error 404</a></li>
-                            <li> <a class="dropdown-item"
-                                    href="https://eduport.webestica.com/coming-soon.html">Coming Soon</a></li>
+                            <li> <a class="dropdown-item" href="https://eduport.webestica.com/error-404.html">Error
+                                    404</a></li>
+                            <li> <a class="dropdown-item" href="https://eduport.webestica.com/coming-soon.html">Coming
+                                    Soon</a></li>
                             <li> <a class="dropdown-item" href="https://eduport.webestica.com/cart.html">Cart</a>
                             </li>
                             <li> <a class="dropdown-item"
                                     href="https://eduport.webestica.com/checkout.html">Checkout</a></li>
-                            <li> <a class="dropdown-item"
-                                    href="https://eduport.webestica.com/empty-cart.html">Empty Cart</a></li>
+                            <li> <a class="dropdown-item" href="https://eduport.webestica.com/empty-cart.html">Empty
+                                    Cart</a></li>
                             <li> <a class="dropdown-item"
                                     href="https://eduport.webestica.com/wishlist.html">Wishlist</a></li>
                         </ul>
@@ -450,8 +446,8 @@
 
                     <!-- Nav item 3 Account -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="accounntMenu"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accounts</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="accounntMenu" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Accounts</a>
                         <ul class="dropdown-menu" aria-labelledby="accounntMenu">
                             <!-- Dropdown submenu -->
                             <li class="dropdown-submenu dropend">
@@ -526,8 +522,7 @@
                                 </ul>
                             </li>
 
-                            <li> <a class="dropdown-item"
-                                    href="https://eduport.webestica.com/admin-dashboard.html"><i
+                            <li> <a class="dropdown-item" href="https://eduport.webestica.com/admin-dashboard.html"><i
                                         class="fas fa-user-cog fa-fw me-1"></i>Admin</a> </li>
                             <li>
                                 <hr class="dropdown-divider">
@@ -577,8 +572,8 @@
 
                     <!-- Nav item 4 Megamenu-->
                     <li class="nav-item dropdown dropdown-fullwidth">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">Megamenu</a>
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Megamenu</a>
                         <div class="dropdown-menu dropdown-menu-end pb-0" data-bs-popper="none">
                             <div class="row p-4 g-4">
                                 <!-- Dropdown column item -->
@@ -665,8 +660,7 @@
                                     </div>
                                     <!-- Dropdown item -->
                                     <div class="d-flex mb-4 position-relative">
-                                        <h2 class="mb-0"><i
-                                                class="fas fa-fw fa-basketball-ball text-dribbble"></i></h2>
+                                        <h2 class="mb-0"><i class="fas fa-fw fa-basketball-ball text-dribbble"></i></h2>
                                         <div class="ms-2">
                                             <a class="stretched-link h6 mb-0" href="#">Creative graphics
                                                 design</a>
@@ -703,12 +697,12 @@
                                         role="alert">
                                         <!-- Avatar -->
                                         <div class="avatar avatar-xs me-2">
-                                            <img class="avatar-img rounded-circle"
-                                                src="./silicon-front/silicon/09.jpg" alt="avatar">
+                                            <img class="avatar-img rounded-circle" src="./silicon-front/silicon/09.jpg"
+                                                alt="avatar">
                                         </div>
                                         <!-- Info -->
-                                        The personality development class starts at 2:00 pm, click to <a
-                                            href="#" class="alert-link">Join Now</a>
+                                        The personality development class starts at 2:00 pm, click to <a href="#"
+                                            class="alert-link">Join Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -717,8 +711,8 @@
 
                     <!-- Nav item 5 link-->
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="#" id="advanceMenu" data-bs-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link" href="#" id="advanceMenu" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
                             <i class="fas fa-ellipsis-h"></i>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end min-w-auto" data-bs-popper="none">
@@ -737,8 +731,7 @@
                                 <hr class="dropdown-divider">
                             </li>
                             <li>
-                                <a class="dropdown-item" href="https://eduport.webestica.com/rtl/"
-                                    target="_blank">
+                                <a class="dropdown-item" href="https://eduport.webestica.com/rtl/" target="_blank">
                                     <i class="text-info fa-fw bi bi-toggle-off me-2"></i>RTL demo
                                 </a>
                             </li>
@@ -780,87 +773,180 @@
 
             <!-- Cart dropdown START -->
             <div class="me-2 me-md-3 dropdown">
-				<!-- Cart button -->
-				<a class="btn btn-light btn-round mb-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
-					<i class="bi bi-cart3 fa-fw"></i>
-				</a>
-				<!-- badge -->
-				<span class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-dark mt-xl-2 ms-n1">2
-					<span class="visually-hidden">unread messages</span>
-				</span>
+                <!-- Cart button -->
+                <a class="btn btn-light btn-round mb-0" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" data-bs-auto-close="outside">
+                    <i class="bi bi-cart3 fa-fw"></i>
+                </a>
+                <!-- badge -->
+                <span
+                    class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-dark mt-xl-2 ms-n1">2
+                    <span class="visually-hidden">unread messages</span>
+                </span>
 
-				<!-- Cart dropdown menu START -->
-				<div class="dropdown-menu dropdown-animation dropdown-menu-end dropdown-menu-size-md p-0 shadow-lg border-0">
-					<div class="card bg-transparent">
-						<div class="card-header bg-transparent border-bottom py-4">
-							<h5 class="m-0">Cart items</h5>
-						</div>
-						<div class="card-body p-0">
+                <!-- Cart dropdown menu START -->
+                <div
+                    class="dropdown-menu dropdown-animation dropdown-menu-end dropdown-menu-size-md p-0 shadow-lg border-0">
+                    <div class="card bg-transparent">
+                        <div class="card-header bg-transparent border-bottom py-4">
+                            <h5 class="m-0">Cart items</h5>
+                        </div>
+                        <div class="card-body p-0">
 
-							<!-- Cart item START -->
-							<div class="row p-3 g-2">
-								<!-- Image -->
-								<div class="col-3">
-									<img class="rounded-2" src="assets/images/book/02.jpg" alt="avatar">
-								</div>
+                            <!-- Cart item START -->
+                            <div class="row p-3 g-2">
+                                <!-- Image -->
+                                <div class="col-3">
+                                    <img class="rounded-2" src="silicon-front/silicon/cart-02.jpg" alt="avatar">
+                                </div>
 
-								<div class="col-9">
-									<!-- Title -->
-									<div class="d-flex justify-content-between">
-										<h6 class="m-0">Angular 4 Tutorial in audio (Compact Disk)</h6>
-										<a href="#" class="small text-primary-hover"><i class="bi bi-x-lg"></i></a>
-									</div>
-									<!-- Select item -->
-									<form class="choices-sm pt-2 col-4">
-										<div class="choices" data-type="select-one" tabindex="0" role="listbox" aria-haspopup="true" aria-expanded="false"><div class="choices__inner"><select class="form-select js-choice border-0 bg-transparent choices__input" data-search-enabled="false" hidden="" tabindex="-1" data-choice="active"><option value="2" data-custom-properties="[object Object]">2</option></select><div class="choices__list choices__list--single"><div class="choices__item choices__item--selectable" data-item="" data-id="1" data-value="2" data-custom-properties="[object Object]" aria-selected="true">2</div></div></div><div class="choices__list choices__list--dropdown" aria-expanded="false"><div class="choices__list" role="listbox"><div id="choices--7hld-item-choice-1" class="choices__item choices__item--choice choices__item--selectable is-highlighted" role="option" data-choice="" data-id="1" data-value="1" data-select-text="Press to select" data-choice-selectable="" aria-selected="true">1</div><div id="choices--7hld-item-choice-2" class="choices__item choices__item--choice is-selected choices__item--selectable" role="option" data-choice="" data-id="2" data-value="2" data-select-text="Press to select" data-choice-selectable="">2</div><div id="choices--7hld-item-choice-3" class="choices__item choices__item--choice choices__item--selectable" role="option" data-choice="" data-id="3" data-value="3" data-select-text="Press to select" data-choice-selectable="">3</div><div id="choices--7hld-item-choice-4" class="choices__item choices__item--choice choices__item--selectable" role="option" data-choice="" data-id="4" data-value="4" data-select-text="Press to select" data-choice-selectable="">4</div><div id="choices--7hld-item-choice-5" class="choices__item choices__item--choice choices__item--selectable" role="option" data-choice="" data-id="5" data-value="5" data-select-text="Press to select" data-choice-selectable="">5</div></div></div></div>
-									</form>
-								</div>
-							</div>
-							<!-- Cart item END -->
+                                <div class="col-9">
+                                    <!-- Title -->
+                                    <div class="d-flex justify-content-between">
+                                        <h6 class="m-0">Angular 4 Tutorial in audio (Compact Disk)</h6>
+                                        <a href="#" class="small text-primary-hover"><i class="bi bi-x-lg"></i></a>
+                                    </div>
+                                    <!-- Select item -->
+                                    <form class="choices-sm pt-2 col-4">
+                                        <div class="choices" data-type="select-one" tabindex="0" role="listbox"
+                                            aria-haspopup="true" aria-expanded="false">
+                                            <div class="choices__inner"><select
+                                                    class="form-select js-choice border-0 bg-transparent choices__input"
+                                                    data-search-enabled="false" hidden="" tabindex="-1"
+                                                    data-choice="active">
+                                                    <option value="2" data-custom-properties="[object Object]">2
+                                                    </option>
+                                                </select>
+                                                <div class="choices__list choices__list--single">
+                                                    <div class="choices__item choices__item--selectable" data-item=""
+                                                        data-id="1" data-value="2"
+                                                        data-custom-properties="[object Object]" aria-selected="true">2
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="choices__list choices__list--dropdown" aria-expanded="false">
+                                                <div class="choices__list" role="listbox">
+                                                    <div id="choices--7hld-item-choice-1"
+                                                        class="choices__item choices__item--choice choices__item--selectable is-highlighted"
+                                                        role="option" data-choice="" data-id="1" data-value="1"
+                                                        data-select-text="Press to select" data-choice-selectable=""
+                                                        aria-selected="true">1</div>
+                                                    <div id="choices--7hld-item-choice-2"
+                                                        class="choices__item choices__item--choice is-selected choices__item--selectable"
+                                                        role="option" data-choice="" data-id="2" data-value="2"
+                                                        data-select-text="Press to select" data-choice-selectable="">2
+                                                    </div>
+                                                    <div id="choices--7hld-item-choice-3"
+                                                        class="choices__item choices__item--choice choices__item--selectable"
+                                                        role="option" data-choice="" data-id="3" data-value="3"
+                                                        data-select-text="Press to select" data-choice-selectable="">3
+                                                    </div>
+                                                    <div id="choices--7hld-item-choice-4"
+                                                        class="choices__item choices__item--choice choices__item--selectable"
+                                                        role="option" data-choice="" data-id="4" data-value="4"
+                                                        data-select-text="Press to select" data-choice-selectable="">4
+                                                    </div>
+                                                    <div id="choices--7hld-item-choice-5"
+                                                        class="choices__item choices__item--choice choices__item--selectable"
+                                                        role="option" data-choice="" data-id="5" data-value="5"
+                                                        data-select-text="Press to select" data-choice-selectable="">5
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- Cart item END -->
 
-							<!-- Divider -->
-							<hr class="m-0">
+                            <!-- Divider -->
+                            <hr class="m-0">
 
-							<!-- Cart item START -->
-							<div class="row p-3 g-2">
-								<!-- Image -->
-								<div class="col-3">
-									<img class="rounded-2" src="assets/images/book/04.jpg" alt="avatar">
-								</div>
+                            <!-- Cart item START -->
+                            <div class="row p-3 g-2">
+                                <!-- Image -->
+                                <div class="col-3">
+                                    <img class="rounded-2" src="silicon-front/silicon/cart-04.jpg" alt="avatar">
+                                </div>
 
-								<div class="col-9">
-									<!-- Title -->
-									<div class="d-flex justify-content-between">
-										<h6 class="m-0">The Principles of Beautiful Graphics Design (Paperback)</h6>
-										<a href="#" class="small text-primary-hover"><i class="bi bi-x-lg"></i></a>
-									</div>
-									<!-- Select item -->
-									<form class="choices-sm pt-2 col-4">
-										<div class="choices" data-type="select-one" tabindex="0" role="listbox" aria-haspopup="true" aria-expanded="false"><div class="choices__inner"><select class="form-select js-choice border-0 bg-transparent choices__input" data-search-enabled="false" hidden="" tabindex="-1" data-choice="active"><option value="1" data-custom-properties="[object Object]">1</option></select><div class="choices__list choices__list--single"><div class="choices__item choices__item--selectable" data-item="" data-id="1" data-value="1" data-custom-properties="[object Object]" aria-selected="true">1</div></div></div><div class="choices__list choices__list--dropdown" aria-expanded="false"><div class="choices__list" role="listbox"><div id="choices--q0zc-item-choice-1" class="choices__item choices__item--choice is-selected choices__item--selectable is-highlighted" role="option" data-choice="" data-id="1" data-value="1" data-select-text="Press to select" data-choice-selectable="" aria-selected="true">1</div><div id="choices--q0zc-item-choice-2" class="choices__item choices__item--choice choices__item--selectable" role="option" data-choice="" data-id="2" data-value="2" data-select-text="Press to select" data-choice-selectable="">2</div><div id="choices--q0zc-item-choice-3" class="choices__item choices__item--choice choices__item--selectable" role="option" data-choice="" data-id="3" data-value="3" data-select-text="Press to select" data-choice-selectable="">3</div><div id="choices--q0zc-item-choice-4" class="choices__item choices__item--choice choices__item--selectable" role="option" data-choice="" data-id="4" data-value="4" data-select-text="Press to select" data-choice-selectable="">4</div><div id="choices--q0zc-item-choice-5" class="choices__item choices__item--choice choices__item--selectable" role="option" data-choice="" data-id="5" data-value="5" data-select-text="Press to select" data-choice-selectable="">5</div></div></div></div>
-									</form>
-								</div>
-							</div>
-							<!-- Cart item END -->
+                                <div class="col-9">
+                                    <!-- Title -->
+                                    <div class="d-flex justify-content-between">
+                                        <h6 class="m-0">The Principles of Beautiful Graphics Design (Paperback)</h6>
+                                        <a href="#" class="small text-primary-hover"><i class="bi bi-x-lg"></i></a>
+                                    </div>
+                                    <!-- Select item -->
+                                    <form class="choices-sm pt-2 col-4">
+                                        <div class="choices" data-type="select-one" tabindex="0" role="listbox"
+                                            aria-haspopup="true" aria-expanded="false">
+                                            <div class="choices__inner"><select
+                                                    class="form-select js-choice border-0 bg-transparent choices__input"
+                                                    data-search-enabled="false" hidden="" tabindex="-1"
+                                                    data-choice="active">
+                                                    <option value="1" data-custom-properties="[object Object]">1
+                                                    </option>
+                                                </select>
+                                                <div class="choices__list choices__list--single">
+                                                    <div class="choices__item choices__item--selectable" data-item=""
+                                                        data-id="1" data-value="1"
+                                                        data-custom-properties="[object Object]" aria-selected="true">1
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="choices__list choices__list--dropdown" aria-expanded="false">
+                                                <div class="choices__list" role="listbox">
+                                                    <div id="choices--q0zc-item-choice-1"
+                                                        class="choices__item choices__item--choice is-selected choices__item--selectable is-highlighted"
+                                                        role="option" data-choice="" data-id="1" data-value="1"
+                                                        data-select-text="Press to select" data-choice-selectable=""
+                                                        aria-selected="true">1</div>
+                                                    <div id="choices--q0zc-item-choice-2"
+                                                        class="choices__item choices__item--choice choices__item--selectable"
+                                                        role="option" data-choice="" data-id="2" data-value="2"
+                                                        data-select-text="Press to select" data-choice-selectable="">2
+                                                    </div>
+                                                    <div id="choices--q0zc-item-choice-3"
+                                                        class="choices__item choices__item--choice choices__item--selectable"
+                                                        role="option" data-choice="" data-id="3" data-value="3"
+                                                        data-select-text="Press to select" data-choice-selectable="">3
+                                                    </div>
+                                                    <div id="choices--q0zc-item-choice-4"
+                                                        class="choices__item choices__item--choice choices__item--selectable"
+                                                        role="option" data-choice="" data-id="4" data-value="4"
+                                                        data-select-text="Press to select" data-choice-selectable="">4
+                                                    </div>
+                                                    <div id="choices--q0zc-item-choice-5"
+                                                        class="choices__item choices__item--choice choices__item--selectable"
+                                                        role="option" data-choice="" data-id="5" data-value="5"
+                                                        data-select-text="Press to select" data-choice-selectable="">5
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- Cart item END -->
 
-						</div>
-						<!-- Button -->
-						<div class="card-footer bg-transparent border-top py-3 text-center d-flex justify-content-between position-relative">
-							<a href="#" class="btn btn-sm btn-light mb-0">View Cart</a>
-							<a href="#" class="btn btn-sm btn-success mb-0">Checkout</a>
-						</div>
-					</div>
-				</div>
-				<!-- Cart dropdown menu END -->
-			</div>
+                        </div>
+                        <!-- Button -->
+                        <div
+                            class="card-footer bg-transparent border-top py-3 text-center d-flex justify-content-between position-relative">
+                            <a href="{{ route('carrito') }}" class="btn btn-sm btn-light mb-0">View Cart</a>
+                            <a href="#" class="btn btn-sm btn-success mb-0">Checkout</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cart dropdown menu END -->
+            </div>
             <!-- Cart dropdown END -->
 
 
 
             <!-- Profile START -->
             <div class="dropdown ms-1 ms-lg-0">
-                <a class="avatar avatar-sm p-0" href="#" id="profileDropdown" role="button"
-                    data-bs-auto-close="outside" data-bs-display="static" data-bs-toggle="dropdown"
-                    aria-expanded="false">
+                <a class="avatar avatar-sm p-0" href="#" id="profileDropdown" role="button" data-bs-auto-close="outside"
+                    data-bs-display="static" data-bs-toggle="dropdown" aria-expanded="false">
                     <img class="avatar-img rounded-circle" src="./silicon-front/silicon/01.jpg" alt="avatar">
                 </a>
                 <ul class="dropdown-menu dropdown-animation dropdown-menu-end shadow pt-3"
@@ -885,8 +971,7 @@
                             Profile</a></li>
                     <li><a class="dropdown-item" href="#"><i class="bi bi-gear fa-fw me-2"></i>Account
                             Settings</a></li>
-                    <li><a class="dropdown-item" href="#"><i
-                                class="bi bi-info-circle fa-fw me-2"></i>Help</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="bi bi-info-circle fa-fw me-2"></i>Help</a></li>
                     <li><a class="dropdown-item bg-danger-soft-hover" href="#"><i
                                 class="bi bi-power fa-fw me-2"></i>Sign Out</a></li>
                     <li>

@@ -17,7 +17,7 @@
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb breadcrumb-dots mb-0">
                                     <li class="breadcrumb-item"><a
-                                            href="https://eduport.webestica.com/course-grid-2.html#">Home</a></li>
+                                            href="{{ env('APP_URL') }}">Home</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Cursos</li>
                                 </ol>
                             </nav>
