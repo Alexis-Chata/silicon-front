@@ -49,6 +49,7 @@
         gtag('config', 'G-7N7LGGGWT1');
     </script>
 
+    @livewireStyles
     <style></style>
 </head>
 
@@ -89,6 +90,7 @@
     <!-- Template Functions -->
     <script src="./silicon-front/silicon/functions.js"></script>
 
+    @livewireScripts
 
 </body>
 
