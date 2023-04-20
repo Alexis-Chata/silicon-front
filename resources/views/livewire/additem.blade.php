@@ -13,9 +13,8 @@
                 {{ $curso->costo }} SOLES</span>
         </button>
     </span>
-    <span class="h6 fw-light mb-0">{{ $encarrito }}</span>
     @forelse (Cart::content() as $item)
-        {{ ($item->name) }}
+
     @empty
         <span class="h6 fw-light mb-0">{{ $encarrito }}</span>
     @endforelse

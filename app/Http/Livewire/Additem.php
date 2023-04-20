@@ -10,7 +10,8 @@ class Additem extends Component
     public $curso,$encarrito;
 
     public function addItem(){
-        Cart::add(['id' => $this->curso->id, 'name' => $this->curso->name, 'qty' => 1, 'price' => $this->curso->costo, 'weight' => 550]);
+        Cart::add(['id' => $this->curso->id, 'name' => $this->curso->name, 'qty' => 1, 'price' => $this->curso->costo, 'weight' => 550, 'options' => ['imagen' => $this->curso->imagen]]);
+        //Cart::destroy();
 
         $this->encarrito = "En Carrito";
     }
