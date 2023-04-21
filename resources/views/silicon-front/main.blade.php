@@ -29,7 +29,7 @@
         <link rel="stylesheet" type="text/css" href="./silicon-front/silicon/glightbox.css">
     @endif
 
-    @if (Route::currentRouteName() == 'cursos')
+    @if (in_array(request()->route()->getName(), ['cursos', 'carrito']))
         <link rel="stylesheet" type="text/css" href="./silicon-front/silicon/choices.min.css">
     @endif
 
@@ -51,6 +51,9 @@
 
     @livewireStyles
     <style></style>
+    @php
+        Cart::setGlobalTax(0);
+    @endphp
 </head>
 
 <body cz-shortcut-listen="true">
@@ -83,7 +86,7 @@
         <script src="./silicon-front/silicon/purecounter_vanilla.js"></script>
     @endif
 
-    @if (Route::currentRouteName() == 'cursos')
+    @if (in_array(request()->route()->getName(), ['cursos', 'carrito']))
         <script src="./silicon-front/silicon/choices.min.js"></script>
     @endif
 

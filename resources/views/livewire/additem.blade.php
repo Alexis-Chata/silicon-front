@@ -13,9 +13,7 @@
                 {{ $curso->costo }} SOLES</span>
         </button>
     </span>
-    @forelse (Cart::content() as $item)
-
-    @empty
+    @if (Cart::count())
         <span class="h6 fw-light mb-0">{{ $encarrito }}</span>
-    @endforelse
+    @endif
 </div>

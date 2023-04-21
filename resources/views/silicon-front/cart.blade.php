@@ -16,9 +16,9 @@
                             <div class="d-flex justify-content-center">
                                 <nav aria-label="miga de pan" _mstaria-label="157144" _msthash="122">
                                     <ol class="breadcrumb breadcrumb-dots mb-0">
-                                        <li class="breadcrumb-item"><a href="#" _msttexthash="59059"
+                                        <li class="breadcrumb-item"><a href="{{ route('index') }}" _msttexthash="59059"
                                                 _msthash="123">Home</a></li>
-                                        <li class="breadcrumb-item"><a href="#" _msttexthash="80366"
+                                        <li class="breadcrumb-item"><a href="{{ route('cursos') }}" _msttexthash="80366"
                                                 _msthash="124">Cursos</a></li>
                                         <li class="breadcrumb-item active" aria-current="page" _msttexthash="60216"
                                             _msthash="125">Carro</li>
@@ -58,8 +58,6 @@
                                             class="bi bi-x-lg"></i></button>
                                 </div>
 
-
-
                                 <div class="table-responsive border-0 rounded-3">
                                     <!-- Table START -->
                                     <table class="table align-middle p-4 mb-0">
@@ -86,14 +84,14 @@
 
                                                 <!-- Amount item -->
                                                 <td class="text-center">
-                                                    <h5 class="text-success mb-0" _msttexthash="21021" _msthash="129">{{ $item->costo }}
+                                                    <h5 class="text-success mb-0" _msttexthash="21021" _msthash="129">S/. {{ $item->price }}
                                                     </h5>
                                                 </td>
                                                 <!-- Action item -->
                                                 <td>
                                                     <a href="#"
                                                         class="btn btn-sm btn-success-soft px-2 me-1 mb-1 mb-md-0"><i
-                                                            class="far fa-fw fa-edit"></i></a>
+                                                            class="far fa-fw fa-edit"></i>{{ $item->qty }}</a>
                                                     <button class="btn btn-sm btn-danger-soft px-2 mb-0"><i
                                                             class="fas fa-fw fa-times"></i></button>
                                                 </td>
@@ -136,7 +134,7 @@
                                         <span class="h6 fw-light mb-0" _msttexthash="258544" _msthash="136">Precio
                                             original</span>
                                         <span class="h6 fw-light mb-0 fw-bold" _msttexthash="20644" _msthash="137">$
-                                            500</span>
+                                            {{ Cart::total() }}</span>
                                     </li>
                                     <li class="list-group-item px-0 d-flex justify-content-between">
                                         <span class="h6 fw-light mb-0" _msttexthash="358956" _msthash="138">Descuento de

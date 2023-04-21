@@ -32,7 +32,7 @@
                             <!-- Title -->
                             <div class="d-flex justify-content-between">
                                 <h6 class="m-0">{{ $item->name }}</h6>
-                                <a href="#" class="small text-primary-hover"><i class="bi bi-x-lg"></i></a>
+                                <a href="#" class="small text-primary-hover" wire:click="eliminar_producto('{{ $item->rowId }}')"><i class="bi bi-x-lg"></i></a>
                             </div>
                             <!-- Select item -->
                             <form class="choices-sm pt-2 col-4">
