@@ -7,15 +7,14 @@ use Livewire\Component;
 
 class CarritoDropdown extends Component
 {
-    protected $listeners = ['actualizar'];
+    protected $listeners = ['actualizar'=>'render'];
 
     public function eliminar_producto($rowId){
         Cart::remove($rowId);
         $this->emit('actualizar');
-    }
-
-    public function actualizar(){
-        $this->render();
+        if (!Cart::count()) {
+            $this->emit('actualizarContenido');
+        }
     }
 
     public function render()
