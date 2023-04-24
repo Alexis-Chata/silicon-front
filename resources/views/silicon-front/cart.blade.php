@@ -58,48 +58,7 @@
                                             class="bi bi-x-lg"></i></button>
                                 </div>
 
-                                <div class="table-responsive border-0 rounded-3">
-                                    <!-- Table START -->
-                                    <table class="table align-middle p-4 mb-0">
-                                        <!-- Table head -->
-                                        <!-- Table body START -->
-                                        <tbody class="border-top-0">
-                                            @foreach (Cart::content() as $item)
-                                            <!-- Table item -->
-                                            <tr>
-                                                <!-- Course item -->
-                                                <td>
-                                                    <div class="d-lg-flex align-items-center">
-                                                        <!-- Image -->
-                                                        <div class="w-100px w-md-80px mb-2 mb-md-0">
-                                                            <img src="silicon-front/silicon/{{ isset($item->options) && $item->options->imagen != '' ? $item->options->imagen : '08.jpg' }}" class="rounded"
-                                                                alt="">
-                                                        </div>
-                                                        <!-- Title -->
-                                                        <h6 class="mb-0 ms-lg-3 mt-2 mt-lg-0">
-                                                            <a href="#" _msttexthash="992043" _msthash="128">{{ $item->name }}</a>
-                                                        </h6>
-                                                    </div>
-                                                </td>
-
-                                                <!-- Amount item -->
-                                                <td class="text-center">
-                                                    <h5 class="text-success mb-0" _msttexthash="21021" _msthash="129">S/. {{ $item->price }}
-                                                    </h5>
-                                                </td>
-                                                <!-- Action item -->
-                                                <td>
-                                                    <a href="#"
-                                                        class="btn btn-sm btn-success-soft px-2 me-1 mb-1 mb-md-0"><i
-                                                            class="far fa-fw fa-edit"></i>{{ $item->qty }}</a>
-                                                    <button class="btn btn-sm btn-danger-soft px-2 mb-0"><i
-                                                            class="fas fa-fw fa-times"></i></button>
-                                                </td>
-                                            </tr>
-                                            @endforeach
-                                        </tbody>
-                                    </table>
-                                </div>
+                                @livewire('detalle-carrito')
 
                                 <!-- Coupon input and button -->
                                 <div class="row g-3 mt-2">
@@ -134,16 +93,16 @@
                                         <span class="h6 fw-light mb-0" _msttexthash="258544" _msthash="136">Precio
                                             original</span>
                                         <span class="h6 fw-light mb-0 fw-bold" _msttexthash="20644" _msthash="137">$
-                                            {{ Cart::total() }}</span>
+                                            {{ Cart::subtotal() }}</span>
                                     </li>
                                     <li class="list-group-item px-0 d-flex justify-content-between">
                                         <span class="h6 fw-light mb-0" _msttexthash="358956" _msthash="138">Descuento de
                                             cupón</span>
-                                        <span class="text-danger" _msttexthash="19929" _msthash="139">-$20</span>
+                                        <span class="text-danger" _msttexthash="19929" _msthash="139">{{ Cart::discount() }}</span>
                                     </li>
                                     <li class="list-group-item px-0 d-flex justify-content-between">
                                         <span class="h5 mb-0" _msttexthash="60814" _msthash="140">Total</span>
-                                        <span class="h5 mb-0" _msttexthash="21476" _msthash="141">$ 480</span>
+                                        <span class="h5 mb-0" _msttexthash="21476" _msthash="141">$ {{ Cart::total() }}</span>
                                     </li>
                                 </ul>
 

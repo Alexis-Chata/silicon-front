@@ -781,7 +781,7 @@
             <!-- Main navbar END -->
 
             <!-- Cart dropdown START -->
-            @livewire('carrito-dropdown')
+            @include('silicon-front.partes.carrito-dropdown')
             <!-- Cart dropdown END -->
 
 
