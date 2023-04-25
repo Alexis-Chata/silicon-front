@@ -8,8 +8,7 @@
                     <!-- logo -->
                     <a class="me-0" href="{{ env('APP_URL', 'http://localhost') }}">
                         <img class="light-mode-item h-40px" src="./silicon-front/silicon/logo.svg" alt="logo">
-                        <img class="dark-mode-item h-40px" src="./silicon-front/silicon/logo-light.svg"
-                            alt="logo">
+                        <img class="dark-mode-item h-40px" src="./silicon-front/silicon/logo-light.svg" alt="logo">
                     </a>
                     <p class="my-3">Eduport education theme, built specifically for the education centers which is
                         dedicated to teaching and involve learners.</p>
@@ -115,15 +114,15 @@
                                             <i class="fas fa-globe me-2"></i>Language
                                         </a>
                                         <ul class="dropdown-menu min-w-auto" aria-labelledby="languageSwitcher">
-                                            <li><a class="dropdown-item me-4" href="#"><img
-                                                        class="fa-fw me-2" src="./silicon-front/silicon/uk.svg"
+                                            <li><a class="dropdown-item me-4" href="#"><img class="fa-fw me-2"
+                                                        src="./silicon-front/silicon/uk.svg"
                                                         alt="">English</a></li>
-                                            <li><a class="dropdown-item me-4" href="#"><img
-                                                        class="fa-fw me-2" src="./silicon-front/silicon/gr.svg"
-                                                        alt="">German </a></li>
-                                            <li><a class="dropdown-item me-4" href="#"><img
-                                                        class="fa-fw me-2" src="./silicon-front/silicon/sp.svg"
-                                                        alt="">French</a></li>
+                                            <li><a class="dropdown-item me-4" href="#"><img class="fa-fw me-2"
+                                                        src="./silicon-front/silicon/gr.svg" alt="">German
+                                                </a></li>
+                                            <li><a class="dropdown-item me-4" href="#"><img class="fa-fw me-2"
+                                                        src="./silicon-front/silicon/sp.svg" alt="">French</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </li>
